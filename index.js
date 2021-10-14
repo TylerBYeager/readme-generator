@@ -28,4 +28,24 @@ const questions = [
         message: "What is your email?",
         name: "email",
     },
+    {
+        type: "input",
+        message: "Please enter installation instructions",
+        name: "install",
+    },
+    {
+        type: "input",
+        message: "Please enter usage information",
+        name: "usage",
+    },
+    {
+        type: "input",
+        message: "Please add contributors or other contribution information",
+        name: "contribution",
+    },
+    {
+        type: "input",
+        message: "Please enter testing information",
+        name: "test",
+    },
 ]
