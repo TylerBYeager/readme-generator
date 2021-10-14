@@ -23,4 +23,9 @@ const questions = [
         message: "Describe your project",
         name: "description",
     },
+    {
+        type: "input",
+        message: "What is your email?",
+        name: "email",
+    },
 ]
