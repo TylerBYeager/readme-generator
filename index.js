@@ -1,10 +1,11 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require('util');
+const markdown = require("./generateMarkdown.js");
 
 const questions = [
     {
-        type= "input",
+        type: "input",
         message: "What is your Github username?",
         name: "username",
     },
@@ -48,4 +49,10 @@ const questions = [
         message: "Please enter testing information",
         name: "test",
     },
-]
+];
+
+inquirer
+ .prompt(questions)
+ .then((response) => {
+     console.log(response);
+ });
