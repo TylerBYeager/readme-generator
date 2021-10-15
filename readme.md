@@ -11,6 +11,9 @@
   ## Description  
   This is a readme generator created through node.js. By answering a few prompts, a user's information will be stored into the corresponding readme location. These can be as long or as short as you would like for them to be. 
 
+  Additionally, here is a link to the generator working. 
+  https://watch.screencastify.com/v/ki7CpqYkK1YknnYTazSv
+
   ## Code Snippets
   Here are some code snippets and what they accomplished. First is a small section of the code that created the questions. The code continues but it is a bit long. 
   ```
