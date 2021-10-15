@@ -40,6 +40,12 @@ const questions = [
         name: "contribution",
     },
     {
+        type: "checkbox",
+        message: "Please choose a license for your project",
+        choices: ["MIT", "MPL", "Apache"],
+        name: "license",
+    },
+    {
         type: "input",
         message: "Please enter testing information",
         name: "test",
